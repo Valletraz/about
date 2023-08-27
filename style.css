@@ -1,0 +1,102 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #4475BA;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #5EC0ED;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.profile {
+  display: inline;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  vertical-align: text-top;
+}
+
+.title {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 47px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 47px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+li.routines {
+  list-style-type: square;
+}
+
+.about {
+  padding: 5px;
+}
+
+img.technology {
+  max-width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+img.getintouch {
+  max-width: 20px;
+  height: auto;
+  border-radius: 50%;
+}
+
